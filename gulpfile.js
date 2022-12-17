@@ -166,7 +166,7 @@ const convertWoff = woff;
 const convertWoff2 = woff2;
 
 // gulp - Запуск всех команд
-export const startup = parallel(allStyles, allScripts,libraries, browserReboot, allWatching, toDoSprite);
+export const dev = parallel(allStyles, allScripts,libraries, browserReboot, allWatching, toDoSprite);
 
 // gulp build - Удаление и перезапись содержимого папки /dist
 export const createBuild = series(clean,processImg, build);
