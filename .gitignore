@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-.vscode
+# .vscode
 *.ai
 *.log
 *.pdf
@@ -11,7 +11,7 @@ Thumbs.db
 app/css
 app/js/main.min.js
 app/js/libraries.min.js
-app/fonts/src
+# app/fonts/src
 app\scss\default\common.scss
 app\scss\default\reset+.scss
 app\scss\default\mixins.scss
