@@ -1,0 +1,20 @@
+// Base font-size
+$base_font-size: 16px;
+
+// Colors
+$colors:(
+  'black': #000000,
+  'white': #ffffff
+);
+
+// Breackpoints
+
+$bp:(
+  'xs': 320px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1400px,
+  'xxl': 1900px
+);
+

@@ -1,4 +1,3 @@
-@import 'variables/index';
 
 html {
   height: 100%;
@@ -8,11 +7,11 @@ html {
 body {
   display: flex;
   flex-flow: column;
-  min-width: $sm;
+  min-width: 320px;
   min-height: 100%;
   font-family:"", sans-serif;
   line-height: 1.2;
-  color: $textColor;
+  // color: $textColor;
 }
 
 .body--hidden {
@@ -35,24 +34,5 @@ body {
  
 
 .container {
-  width: 90%;
-  margin: 0 auto;
+  
 }
-
-@media(min-width: $md) {
-  .container {
-    width: 82%;
-  }
-}
-
-@media(min-width: $xl) {
-  .container {
-    width: 96%;
-  }
-}
-@media(min-width: $hd) {
-  .container {
-    width: 68%;
-  }
-}
-
